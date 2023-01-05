@@ -21,7 +21,7 @@
       "name": "blackmore",
       "buildsystem": "simple",
       "build-commands": [
-        "install -m 0744 -D -t /app/bin/ bin/blackmore-qt"
+        "install -m 0744 -D -t /app/bin/internal bin/blackmore-qt"
       ],
       "sources": [
         {
