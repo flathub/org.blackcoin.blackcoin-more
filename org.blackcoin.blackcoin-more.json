@@ -18,7 +18,7 @@
   ],
   "modules": [
     {
-      "name": "blackmore",
+      "name": "blackcoin-more",
       "buildsystem": "simple",
       "build-commands": [
         "install -m 0744 -D -t /app/bin/internal bin/blackmore-qt"
@@ -43,14 +43,14 @@
       "buildsystem": "simple",
       "build-commands": [
         "install -Dp -m 644 blackcoin.svg /app/share/icons/hicolor/scalable/apps/org.blackcoin.blackcoin-more.svg",
-        "install -Dp -m 644 blackmore-qt.desktop /app/share/applications/org.blackcoin.blackcoin-more.desktop",
+        "install -Dp -m 644 blackcoin-more.desktop /app/share/applications/org.blackcoin.blackcoin-more.desktop",
         "desktop-file-edit --set-icon=${FLATPAK_ID} /app/share/applications/org.blackcoin.blackcoin-more.desktop",
         "install -Dp -m 644 org.blackcoin.blackcoin-more.metainfo.xml /app/share/metainfo/org.blackcoin.blackcoin-more.metainfo.xml"
       ],
       "sources": [
         {
           "type": "file",
-          "url": "https://raw.githubusercontent.com/expatjedi/blk-flatpak-data/main/blackmore-qt.desktop",
+          "url": "https://raw.githubusercontent.com/expatjedi/blk-flatpak-data/main/blackcoin-more.desktop",
           "sha256": "a04ba5b9b35e0502e95203d945c7e42bb2d2a70f2b611df6c5a83271efc8a8a2"
         },
         {
