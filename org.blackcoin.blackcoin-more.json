@@ -21,7 +21,7 @@
       "name": "blackmore",
       "buildsystem": "simple",
       "build-commands": [
-        "install -m 0744 -D -t /app/bin/ bin/blackmore-qt"
+        "install -m 0744 -D -t /app/bin/internal bin/blackmore-qt"
       ],
       "sources": [
         {
@@ -51,7 +51,7 @@
         {
           "type": "file",
           "url": "https://raw.githubusercontent.com/expatjedi/blk-flatpak-data/main/blackmore-qt.desktop",
-          "sha256": "a04ba5b9b35e0502e95203d945c7e42bb2d2a70f2b611df6c5a83271efc8a8a2"
+          "sha256": "21d6c3498f9b2f34907751a0d6e5a3475d38c843afae24263c930c2f37db551c"
         },
         {
           "type": "file",
