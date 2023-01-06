@@ -50,7 +50,8 @@
       "sources": [
         {
           "type": "file",
-          "url": "https://raw.githubusercontent.com/expatjedi/blk-flatpak-data/main/blackcoin-more.desktop"
+          "url": "https://raw.githubusercontent.com/expatjedi/blk-flatpak-data/main/blackcoin-more.desktop",
+          "sha256": "21d6c3498f9b2f34907751a0d6e5a3475d38c843afae24263c930c2f37db551c"
         },
         {
           "type": "file",
