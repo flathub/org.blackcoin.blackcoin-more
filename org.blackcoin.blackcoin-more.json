@@ -18,10 +18,10 @@
   ],
   "modules": [
     {
-      "name": "blackmore",
+      "name": "blackcoin",
       "buildsystem": "simple",
       "build-commands": [
-        "install -m 0744 -D -t /app/bin/ bin/blackmore-qt"
+        "install -m 0744 -D -t /app/bin/internal bin/blackmore-qt"
       ],
       "sources": [
         {
@@ -45,7 +45,8 @@
         "install -Dp -m 644 blackcoin.svg /app/share/icons/hicolor/scalable/apps/org.blackcoin.blackcoin-more.svg",
         "install -Dp -m 644 blackmore-qt.desktop /app/share/applications/org.blackcoin.blackcoin-more.desktop",
         "desktop-file-edit --set-icon=${FLATPAK_ID} /app/share/applications/org.blackcoin.blackcoin-more.desktop",
-        "install -Dp -m 644 org.blackcoin.blackcoin-more.metainfo.xml /app/share/metainfo/org.blackcoin.blackcoin-more.metainfo.xml"
+        "install -Dp -m 644 org.blackcoin.blackcoin-more.metainfo.xml /app/share/metainfo/org.blackcoin.blackcoin-more.metainfo.xml",
+        "bash install_wrapper.sh"
       ],
       "sources": [
         {
