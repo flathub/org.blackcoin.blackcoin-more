@@ -54,8 +54,7 @@
         },
         {
           "type": "file",
-          "path": "org.blackcoin.blackcoin-more.metainfo.xml",
-          "sha256": "e62735c0404bd8785f7fee0a17d2b70bbd6d20ce7e5cfeaea0da5cab8d1ea11c"
+          "path": "org.blackcoin.blackcoin-more.metainfo.xml"
         },
         {
           "type": "file",
