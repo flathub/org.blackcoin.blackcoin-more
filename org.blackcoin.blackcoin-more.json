@@ -25,14 +25,14 @@
         {
           "type": "archive",
           "only-arches": ["x86_64"],
-          "url": "https://github.com/expatjedi/blk-flatpak-data/releases/download/13.2.0/blackcoin-more-13.2.0-x86_64-linux-gnu.tar.gz",
-          "sha256": "e73c68fd4a35cc7d629f62ccfb265be5b3fa259b162d28c31d15cf6228a8a90a"
+          "url": "https://github.com/CoinBlack/blackcoin-more/releases/download/v13.2.1/blackcoin-more-13.2.1-x86_64-linux-gnu.tar.gz",
+          "sha256": "3681da3217019e202b887ab5d34f2a5ad3a1dd98368d3c7362f72753c0722184"
         },
         {
           "type": "archive",
           "only-arches": ["aarch64"],
-          "url": "https://github.com/expatjedi/blk-flatpak-data/releases/download/13.2.0/blackcoin-more-13.2.0-aarch64-linux-gnu.tar.gz",
-          "sha256": "9816fa0772068b55686dda6e1c0eda276942980bfa53ee47495fee6a001311e8"
+          "url": "https://github.com/CoinBlack/blackcoin-more/releases/download/v13.2.1/blackcoin-more-13.2.1-aarch64-linux-gnu.tar.gz",
+          "sha256": "bd2a5f0cacfe170cdae814f64e41f1904a08911da4b09629b2441d74166dc780"
         }
       ]
     },
@@ -54,8 +54,7 @@
         },
         {
           "type": "file",
-          "path": "org.blackcoin.blackcoin-more.metainfo.xml",
-          "sha256": "e801d9101218916652694249f1915b31d256a2ad8efff94ab5843f4fa17455ff"
+          "path": "org.blackcoin.blackcoin-more.metainfo.xml"
         },
         {
           "type": "file",
