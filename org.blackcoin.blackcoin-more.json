@@ -25,14 +25,14 @@
         {
           "type": "archive",
           "only-arches": ["x86_64"],
-          "url": "https://github.com/CoinBlack/blackcoin-more/releases/download/v13.2.2/blackcoin-more-13.2.2-x86_64-linux-gnu.tar.gz",
-          "sha256": "a76594fc53dfa46ca9705a72e042db1ac9ed0bf79c49140b0a6d72bc950d07ce"
+          "url": "https://github.com/CoinBlack/blackcoin-more/releases/download/v13.2.3/blackcoin-more-13.2.3-x86_64-linux-gnu.tar.gz",
+          "sha256": "8e1839e7d64e2b9264f3fba356b6b5e3916903d9cab40fd39c8c5aa9274500b6"
         },
         {
           "type": "archive",
           "only-arches": ["aarch64"],
-          "url": "https://github.com/CoinBlack/blackcoin-more/releases/download/v13.2.2/blackcoin-more-13.2.2-aarch64-linux-gnu.tar.gz",
-          "sha256": "075abe73e2909a4b994fb4d94c4bf370e7ed6cebb36f92984e3196627fb6f30c"
+          "url": "https://github.com/CoinBlack/blackcoin-more/releases/download/v13.2.3/blackcoin-more-13.2.3-aarch64-linux-gnu.tar.gz",
+          "sha256": "4dd4495de806a4bde23eba30c91d1a06a55988f298bb2aeed1b041301ce99e9b"
         }
       ]
     },
